@@ -1,5 +1,5 @@
 module controller (
-    input  wire [6 : 9]          op,
+    input  wire [6 : 0]          op,
     input  wire [2 : 0]      funct3,
     input  wire            funct7b5,
     input  wire [3 : 0]       flags,
